@@ -1,5 +1,5 @@
 import { BsSearch } from "react-icons/bs";
-import { IoIosMenu } from "react-icons/Io";
+import { IoIosMenu } from "react-icons/io";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import CartCountBadge from "./CartCountBadge";
 
