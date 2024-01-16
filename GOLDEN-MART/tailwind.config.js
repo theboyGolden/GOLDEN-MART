@@ -9,6 +9,7 @@ export default {
       colors: {
         accent: "#179957",
         accentDark: "#184D47",
+        bluegrey: "#6699CC",
 
       },
       container: {

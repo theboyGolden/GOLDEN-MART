@@ -15,10 +15,10 @@ const Hero = () => {
 
         {/* Second Column (Two divs with images) */}
         <div className="xl:col-span-1 flex flex-col gap-4">
-          <div style={{ height: '220px', width: '200px' }}>
+          <div style={{ height: '220px', width: '220px' }}>
             <img className="w-full h-full object-cover rounded-lg" src={hoodie} alt="Hoodie" />
           </div>
-          <div style={{ height: '220px', width: '200px' }}>
+          <div style={{ height: '220px', width: '220px' }}>
             <img className="w-full h-full object-cover rounded-lg" src={camera} alt="Gen-Z Camera" />
           </div>
         </div>
