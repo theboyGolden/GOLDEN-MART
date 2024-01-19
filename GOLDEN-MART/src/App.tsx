@@ -1,14 +1,22 @@
 import MobNavbar from "./components/MobNavbar";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import LoginPage from "./pages/LoginPage";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <main>
+    <Router>
+      <Routes>
+      <main>
       <Navbar />
       <MobNavbar />
       <Hero />
-    </main>
+      </main>
+      <Route path="/LoginPage" element={<LoginPage/>} />
+      </Routes>
+    </Router>
+    
   );
 };
 
