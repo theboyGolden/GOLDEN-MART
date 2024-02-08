@@ -2,6 +2,7 @@ import { BsSearch } from "react-icons/bs";
 import { IoIosMenu } from "react-icons/io";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import CartCountBadge from "./CartCountBadge";
+import Logo from '../images/_2fe58716-bf8b-4f77-95f7-da717102793d.jpeg';
 
 const MobNavbar = () => {
     return (
@@ -14,7 +15,7 @@ const MobNavbar = () => {
 
                     </div>
 
-                    <h1 className="text-4xl">Logo</h1>
+                    <img className="rounded h-36 w-auto" src={Logo} alt="Golden Mart Logo" />
 
                     <div className="flex gap-4 text-[30px]">
                         <AiOutlineUser />
