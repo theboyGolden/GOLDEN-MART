@@ -1,6 +1,7 @@
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import CartCountBadge from "./CartCountBadge";
+import Logo from '../images/_2fe58716-bf8b-4f77-95f7-da717102793d.jpeg';
 
 
 const Navbar = () => {
@@ -8,7 +9,9 @@ const Navbar = () => {
     <div className="sticky top-0 bg-white z-10">
         <div className="container hidden lg:block">
             <div className = "flex justify-between items-center p-8">
-                <h1 className="text-4xl font-medium">Logo</h1>
+            <img className="rounded h-16 w-auto" src={Logo} alt="Golden Mart Logo" />
+
+
                 <div className="relative w-full max-w-[500px]">
                     <input 
                     className="bg-[#f2f3f5] border-none outline-none px-6 py-3 rounded-[30px] w-full"
